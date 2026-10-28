@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.ghostviralai/ghostviral",
+  "title": "GhostViral",
+  "description": "Faceless video studio: script, stock footage, voiceover, captions and motion graphics to MP4.",
+  "websiteUrl": "https://ghostviralai.com",
+  "icons": [
+    {
+      "src": "https://ghostviralai.com/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    },
+    {
+      "src": "https://ghostviralai.com/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/00UtKu00/ghostviral-mcp",
+    "source": "github"
+  },
+  "version": "2.4.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ghostviralai.com/mcp"
+    }
+  ]
+}
